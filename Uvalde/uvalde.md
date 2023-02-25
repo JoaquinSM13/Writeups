@@ -133,7 +133,7 @@ Encontramos de primeras la primera flag
 
 ```
 matthew@uvalde:~$ cat user.txt 
-6e4136fbed8f8c691996dbf42697d460
+***************91996dbf42697d460
 ```
 
 Ahora dentro de la maquina buscamos la manera de escalar privilegios
@@ -154,8 +154,8 @@ matthew@uvalde:/$ sudo /bin/bash /opt/superhack
 root@uvalde:/# cd /root
 root@uvalde:~# ls
 root.txt
-root@uvalde:~# cat root.txt 
-59ec54537e98a53691f33e81500f56da
+root@uvalde:~# cat root.txt
+***************691f33e81500f56da
 ```
 
 Y asi terminamos la maquina Uvalde
