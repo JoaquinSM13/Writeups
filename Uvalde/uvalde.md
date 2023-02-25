@@ -19,7 +19,8 @@ Me confirma que es un usuario Linux y me muestra un ejemplo de los comandos que 
 Continuare viendo el http la cual es una pagina completamente normal.
 Lanzando la herramienta gobuster encontramos nuevos directorios
 
-``` gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://10.0.2.14 -x .php,.html     
+``` 
+gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://10.0.2.14 -x .php,.html     
 ===============================================================
 Gobuster v3.4
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
