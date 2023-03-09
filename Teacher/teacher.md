@@ -1,4 +1,4 @@
-# Bagel HTB
+# Teacher HackMyVM
 
 - Ip atacante - 10.0.2.4
 - Ip victima - 10.0.2.24
