@@ -81,10 +81,8 @@ uid=1000(frank) gid=1000(frank) groups=1000(frank)
 python3 -c 'import pty;pty.spawn("/bin/bash")' 
 frank@inject:~$ export TERM=xterm SHELL=bash
 ```
-
 Ya con eso podemos trabajar mejor
 Viendo la carpeta de frank vemos que existe un directorio ``.m2``
-
 ## Pivoting to Phil
 
 ```bash
@@ -113,7 +111,8 @@ cat settings.xml
     <server>
       <id>Inject</id>
       <username>phil</username>
-      <password>DocPhillovestoInject123</password>
+                       
+      <password>*********ovesto*********</password>
       <privateKey>${user.home}/.ssh/id_dsa</privateKey>
       <filePermissions>660</filePermissions>
       <directoryPermissions>660</directoryPermissions>
@@ -129,7 +128,7 @@ pivoteamos al usuario phil
 ```bash
 frank@inject:/home/phil$ su phil                      
 su phil
-Password: DocPhillovestoInject123
+Password: *********ovesto*********
 
 phil@inject:~$ id
 id
